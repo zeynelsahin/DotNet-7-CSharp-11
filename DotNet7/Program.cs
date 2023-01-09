@@ -3,6 +3,7 @@
 //Raw String Literals
 /* Satırlar en son tırnak işaretinin tabıya aynı konumda veya daha ileride başlayabilir ve son tırnagın önündeki tablar boş geçilir. */
 
+using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Security.AccessControl;
 using System.Text;
@@ -83,15 +84,26 @@ result = numbers is [1, 5, 7, 9]; //false
 
 //discard 
 
-result = numbers is [_, _, 6, _, _] İ;//true
-result = numbers is [_, _, 6, ..];//true
+result = numbers is [_, _, 6, _, _] İ; //true
+result = numbers is [_, _, 6, ..]; //true
 
 //range
-result = numbers is [1, 2, .., 9];//true
+result = numbers is [1, 2, .., 9]; //true
 
 //var 
 
 result = numbers is [.., var a, var b, _, _];
+
+
+//Date Changed Microseconds Nanoseconds
+var stopWatch = Stopwatch.StartNew();
+
+stopWatch.Stop();
+Console.WriteLine("Total Milliseconds" + stopWatch.Elapsed.TotalMilliseconds);
+Console.WriteLine("Total Microseconds" + stopWatch.Elapsed.Microseconds);
+Console.WriteLine("Total NanoSeconds" + stopWatch.Elapsed.TotalNanoseconds);
+
+var dateExample = DateTime.Now.AddMicroseconds(100);
 
 
 Console.ReadKey();
