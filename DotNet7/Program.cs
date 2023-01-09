@@ -3,8 +3,10 @@
 //Raw String Literals
 /* Satırlar en son tırnak işaretinin tabıya aynı konumda veya daha ileride başlayabilir ve son tırnagın önündeki tablar boş geçilir. */
 
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
+using System.Formats.Tar;
 using System.Security.AccessControl;
 using System.Text;
 
@@ -105,6 +107,12 @@ Console.WriteLine("Total NanoSeconds" + stopWatch.Elapsed.TotalNanoseconds);
 
 var dateExample = DateTime.Now.AddMicroseconds(100);
 
+//TarFile
+TarFile.CreateFromDirectory(sourceDirectoryName:"/deneme",destinationFileName:"/deneme2",includeBaseDirectory:true);
+
+//Type Converters
+TypeConverter dateOnlyConverter = TypeDescriptor.GetConverter(typeof(DateOnly));
+DateOnly? dateOnly = dateOnlyConverter.ConvertFromString("2023-01-10") as DateOnly?;
 
 Console.ReadKey();
 
