@@ -1,13 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 //Raw String Literals
+/* Satırlar en son tırnak işaretinin tabıya aynı konumda veya daha ileride başlayabilir ve son tırnagın önündeki tablar boş geçilir. */
 
-string message = """
+using System.Diagnostics.CodeAnalysis;
+using System.Security.AccessControl;
+using System.Text;
+
+string message = """        
+    lOR
     Try Case 
-Try Case 
-            Try Case 
-Try Case 
-""";
+    """;
+Console.WriteLine("Literal string");
 Console.WriteLine(message);
 
 // Raw String Literals with String Interpolation
@@ -16,19 +20,107 @@ var latitude = "41.158085";
 var location = $$""" 
     Gps coordinates : {{{longitude}} , {{latitude}}}
 """;
+
 Console.Write(location);
-
-// The Required Modifier
-
-var person = new Person
+var nameList = new Dictionary<string, string>()
 {
-    FirstName = ""
+    { "Zeynel", "Şahin" },
+    { "İsim", "Şahin" },
+    { "Ad", "Şahin" }
 };
 
+var json = $$""" 
+    [
+     {
+        "isim":"Zeynel",
+        "soyIsim":{{nameList["Zeynel"]}}
+     },
+     {
+        "isim":"İsim",
+        "soyIsim":{{nameList["İsim"]}}
+     },
+     {
+        "isim":"Ad",
+        "soyIsim":{{nameList["Ad"]}}
+     }
+    ]
+
+    """;
+
+Console.Write(json);
+
+//Utf 8 string literals
+
+ReadOnlySpan<byte> u8 = "Hello world in UTF-8"u8;
+Console.WriteLine(Encoding.UTF8.GetString(u8));
+
+// The Required Modifier
+var person = new Person
+{
+    FirstName = "" //person required olarak süslendi initialize edilmesi gerekmektedir.
+};
+
+var employee = new Employee("Deneme");
+
+//Auto Default Struct
+var example = new Example();
+Console.Write(example);
+
+// File scoped Yanlızca yazılan dosyada geçerli olacaktır
+
+// var scoped = new LocalClass(); LocalClass sınıf file modiferına sahip olduğu için buradan erişemiyoruz
+
+
+//List Patterns
+
+int[] numbers = new[] { 1, 2, 6, 7, 9 };
+
+bool result;
+
+result = numbers is [1, 2, 6, 7, 9]; //true
+result = numbers is [1, 6, 7, 9]; //false
+result = numbers is [1, 5, 7, 9]; //false
+
+//discard 
+
+result = numbers is [_, _, 6, _, _] İ;//true
+result = numbers is [_, _, 6, ..];//true
+
+//range
+result = numbers is [1, 2, .., 9];//true
+
+//var 
+
+result = numbers is [.., var a, var b, _, _];
+
+
 Console.ReadKey();
+
+class Example
+{
+    private string Deneme { get; set; }
+    private bool IsValid { get; set; } //default değeri : false
+    private DateTime TrnDate { get; set; } //default değeri  1.01.0001 00:00:00
+
+    public override string ToString()
+    {
+        return $"Deneme: {Deneme} IsValid : {IsValid} TrnDate : {TrnDate}";
+    }
+}
 
 
 class Person
 {
     public required string FirstName { get; set; }
+}
+
+class Employee : Person
+{
+    [SetsRequiredMembers] // constructor dışındaki required alanların yok sayar
+    public Employee(string function)
+    {
+        Function = function;
+    }
+
+    public required string Function { get; set; }
 }
