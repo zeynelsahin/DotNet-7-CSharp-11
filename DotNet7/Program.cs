@@ -108,8 +108,16 @@ Console.WriteLine("Total NanoSeconds" + stopWatch.Elapsed.TotalNanoseconds);
 var dateExample = DateTime.Now.AddMicroseconds(100);
 
 //TarFile
-TarFile.CreateFromDirectory(sourceDirectoryName:"/deneme",destinationFileName:"/deneme2",includeBaseDirectory:true);
-
+// TarFile.CreateFromDirectory(sourceDirectoryName:@"C:\TarDeneme",destinationFileName:@"C:\TarDeneme",includeBaseDirectory:true);
+var targetTarFile = @"C:\TarDeneme2\deneme.tar";
+if (File.Exists(targetTarFile))
+{
+    File.Delete(targetTarFile);
+}
+TarFile.CreateFromDirectory(@"C:\TarDeneme",targetTarFile,false);
+var destination = @$"C:\TarDeneme\{Guid.NewGuid()}";
+Directory.CreateDirectory(destination);
+TarFile.ExtractToDirectory(targetTarFile,destination,true);
 //Type Converters
 TypeConverter dateOnlyConverter = TypeDescriptor.GetConverter(typeof(DateOnly));
 DateOnly? dateOnly = dateOnlyConverter.ConvertFromString("2023-01-10") as DateOnly?;
