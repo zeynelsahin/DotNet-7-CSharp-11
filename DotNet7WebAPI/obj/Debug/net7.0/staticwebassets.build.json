@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x/z2/MQEs3pPKQE0abaGP3tlz8pylN3hz41FiiYhLNk=",
+  "Source": "DotNet7WebAPI",
+  "BasePath": "_content/DotNet7WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

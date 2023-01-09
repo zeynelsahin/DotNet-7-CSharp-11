@@ -122,6 +122,15 @@ TarFile.ExtractToDirectory(targetTarFile,destination,true);
 TypeConverter dateOnlyConverter = TypeDescriptor.GetConverter(typeof(DateOnly));
 DateOnly? dateOnly = dateOnlyConverter.ConvertFromString("2023-01-10") as DateOnly?;
 
+
+/* .Net 7 New Features
+
+HTTP/2 WebSockets
+HTTP/3 
+Output caching
+Rate limiting
+Request decompression
+*/
 Console.ReadKey();
 
 class Example
