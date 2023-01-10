@@ -15,7 +15,7 @@ public class CSharp11
     Raw string literals ==> Kaçış karakterleri olmadan string manipulation.
     
     UTF-8 string literals ==> Kullanılabilir. Default değer UTF-16 
-    
+
     List patterns ==>  yeni list kullanımları.
     
     File scoped types ==> Yanlızca bir dosya alanı

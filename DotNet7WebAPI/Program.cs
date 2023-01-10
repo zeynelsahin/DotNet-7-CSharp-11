@@ -65,7 +65,10 @@ builder.Services.AddRateLimiter(options =>
                     Window = TimeSpan.FromHours(1)
                 })));
 });
-
+builder.Services.AddOutputCache(options =>
+{
+    options.DefaultExpirationTimeSpan = TimeSpan.FromMinutes(10);
+});
 builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
     .AddNegotiate();
 
@@ -85,5 +88,10 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 // app.MapControllers().RequireRateLimiting(fixedWindowRateLimitedPolicy);
 // app.MapControllers().RequireRateLimiting(concurrencyRateLimitedPolicy);
-app.MapControllers();
+app.UseOutputCache();
+app.MapControllers().CacheOutput(policyName =>
+{
+    policyName.SetVaryByQuery("location");//Url query ile aldığı location değerine göre cachede tutacak
+    policyName.Expire(TimeSpan.FromSeconds(10));
+});
 app.Run();
