@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7", "DotNet7\DotNet7.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7WebAPI", "DotNet7WebAPI\DotNet7WebAPI.csproj", "{1F13BB17-9751-4DF0-8D97-CD129EDDEC65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7BlazorWebAssembly", "DotNet7BlazorWebAssembly\DotNet7BlazorWebAssembly.csproj", "{5DD6F489-4D05-495B-A752-5EE1EDAA3BB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1F13BB17-9751-4DF0-8D97-CD129EDDEC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F13BB17-9751-4DF0-8D97-CD129EDDEC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F13BB17-9751-4DF0-8D97-CD129EDDEC65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD6F489-4D05-495B-A752-5EE1EDAA3BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD6F489-4D05-495B-A752-5EE1EDAA3BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD6F489-4D05-495B-A752-5EE1EDAA3BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD6F489-4D05-495B-A752-5EE1EDAA3BB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
