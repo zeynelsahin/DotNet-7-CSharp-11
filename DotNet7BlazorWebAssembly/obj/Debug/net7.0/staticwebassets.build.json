@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/kroFbIiVDpBXAj8ngJVGL0h+iWYK49Go8DOzQl1P1Q=",
+  "Hash": "a2zq6g3+v49K+SwcYLjPDGZ3CDBmfX5QqQcGSm/9tA0=",
   "Source": "DotNet7BlazorWebAssembly",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\QuickGrid.razor.js"
+    },
     {
       "Identity": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "DotNet7BlazorWebAssembly",
@@ -253,6 +287,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.0\\lib\\net7.0\\Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
+      "Identity": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.QuickGrid.dll",
+      "SourceId": "DotNet7BlazorWebAssembly",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.QuickGrid.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.QuickGrid.dll"
     },
     {
       "Identity": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -4860,6 +4911,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Configuration.dll"
+    },
+    {
+      "Identity": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\obj\\Debug\\net7.0\\build-gz\\GiQ3bXmY.gz",
+      "SourceId": "DotNet7BlazorWebAssembly",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.QuickGrid.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.QuickGrid.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.QuickGrid.dll"
     },
     {
       "Identity": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\obj\\Debug\\net7.0\\build-gz\\Gn+hYJbt.gz",

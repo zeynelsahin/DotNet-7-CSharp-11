@@ -10,6 +10,7 @@
       "Microsoft.AspNetCore.Authorization.dll": "sha256-NFh6IBi88fjYMkbq\/IMrfqfn7JXFa8CwRo31QNrEQ+w=",
       "Microsoft.AspNetCore.Components.dll": "sha256-9VddC0kXU8yC0LxsoSLOvzSAzJZxM+P1hCgrsV6GGBw=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-11bIX\/fyH9chfWgC1L1jFvAt2Ppq+6bcXl1eH6OmxMA=",
+      "Microsoft.AspNetCore.Components.QuickGrid.dll": "sha256-PW\/wHFaTp8vYiuguHaQ3AwRZufEAL3poOUlA2LvA0BA=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-LZ9\/rytjyZiFmFLJJ3eNXTIAlcm8dbKj\/vT3N6vPXqg=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-wa9dKaCIgfTZkr2Ca8QiW3bsjHFZw3Fn8X114nXO25o=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-mFDOnLuhJraetVG1skdrXwUnBj7sNxv2HNiaJHjPGCw=",
@@ -198,13 +199,13 @@
       "mscorlib.dll": "sha256-pO\/W4w\/X+UjVMUMaxE5tYTQ0tILP+hmMu0zi0MSVBLc=",
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
-      "DotNet7BlazorWebAssembly.dll": "sha256-SyP8YBTWEs2DnlD7nvPOw6qH8PWAdt8NLOsYkjmJ2Zo="
+      "DotNet7BlazorWebAssembly.dll": "sha256-tscrzAsrihPvc5kua7SjG6hk7cZP+c2eETe5Equo7lI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "DotNet7BlazorWebAssembly.pdb": "sha256-egDg30h3VLEDyfu3Qd8IRWHRdUJfaS7k3ddWYQtjseI="
+      "DotNet7BlazorWebAssembly.pdb": "sha256-21GHOlDI8pvFl1STH5tKVIxaWmZI2RvgWOLS9XQ8Aps="
     },
     "runtime": {
       "dotnet.7.0.0.b4ej7rdkt5.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",

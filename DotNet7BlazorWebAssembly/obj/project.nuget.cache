@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4cXHHz5TjuG5VYT+Q+10SbMiEXZHQBRsjhCDAVP6xigCydpR8u6c1DUGscCP+GrjgpqCnrc9P+OdLA4FSJ5riQ==",
+  "dgSpecHash": "hBttwqBhgHsuMKYXOIoRRRJ5HGhonn3433pjQRlhQwn4dw7q4Y/VIN0fYYZHjE/G7Nav8GY6YNVzTife+NeC0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\DotNet7BlazorWebAssembly\\DotNet7BlazorWebAssembly.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.0\\microsoft.aspnetcore.components.7.0.0.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.0\\microsoft.aspnetcore.components.analyzers.7.0.0.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.0\\microsoft.aspnetcore.components.forms.7.0.0.nupkg.sha512",
+    "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\microsoft.aspnetcore.components.quickgrid.0.1.0-alpha.22351.1.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.0\\microsoft.aspnetcore.components.web.7.0.0.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.0\\microsoft.aspnetcore.components.webassembly.7.0.0.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\7.0.0\\microsoft.aspnetcore.components.webassembly.devserver.7.0.0.nupkg.sha512",

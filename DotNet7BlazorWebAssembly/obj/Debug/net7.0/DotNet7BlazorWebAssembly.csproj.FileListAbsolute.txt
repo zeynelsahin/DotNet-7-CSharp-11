@@ -826,3 +826,7 @@ C:\Users\zeynels\Desktop\Git Project\DotNet7\DotNet7BlazorWebAssembly\obj\Debug\
 C:\Users\zeynels\Desktop\Git Project\DotNet7\DotNet7BlazorWebAssembly\obj\Debug\net7.0\build-gz\pAWgyMVy.gz
 C:\Users\zeynels\Desktop\Git Project\DotNet7\DotNet7BlazorWebAssembly\obj\Debug\net7.0\build-gz\lKFT50nF.gz
 C:\Users\zeynels\Desktop\Git Project\DotNet7\DotNet7BlazorWebAssembly\obj\Debug\net7.0\build-gz\V3y2sNw+.gz
+C:\Users\zeynels\Desktop\Git Project\DotNet7\DotNet7BlazorWebAssembly\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\zeynels\Desktop\Git Project\DotNet7\DotNet7BlazorWebAssembly\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.QuickGrid.dll.gz
+C:\Users\zeynels\Desktop\Git Project\DotNet7\DotNet7BlazorWebAssembly\bin\Debug\net7.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\zeynels\Desktop\Git Project\DotNet7\DotNet7BlazorWebAssembly\obj\Debug\net7.0\build-gz\GiQ3bXmY.gz
