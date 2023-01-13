@@ -19,22 +19,22 @@ namespace WiredBrainCoffee.UI.Pages
         [CascadingParameter] 
         public IModalService Modal { get; set; }
 
-        public List<MenuItem> CurrentOrder { get; set; } = new List<MenuItem>();
-        public List<MenuItem> MenuItems { get; set; } = new List<MenuItem>();
-        public decimal OrderTotal { get; set; } = 0;
-        public decimal SalesTax { get; set; } = 0.06m;
-        public string PromoCode { get; set; } = string.Empty;
-        public decimal Discount { get; set; } = 0;
+        private List<MenuItem> CurrentOrder { get; set; } = new List<MenuItem>();
+        private List<MenuItem> MenuItems { get; set; } = new List<MenuItem>();
+        private decimal OrderTotal { get; set; } = 0;
+        private decimal SalesTax { get; set; } = 0.06m;
+        private string PromoCode { get; set; } = string.Empty;
+        private decimal Discount { get; set; } = 0;
 
         [Parameter]
         [SupplyParameterFromQuery]
         public string ActiveTab { get; set; }
 
-        public string SearchTerm { get; set; } = string.Empty;
+        private string SearchTerm { get; set; } = string.Empty;
 
-        public List<MenuItem> FilteredMenu = new List<MenuItem>();
+        private List<MenuItem> FilteredMenu = new();
 
-        public void FilterMenu()
+        private void FilterMenu()
         {
             if (!string.IsNullOrWhiteSpace(SearchTerm))
             {
@@ -43,7 +43,7 @@ namespace WiredBrainCoffee.UI.Pages
             } 
             else
             {
-                FilteredMenu = new();
+                FilteredMenu = new List<MenuItem>();
             }
         }
 
