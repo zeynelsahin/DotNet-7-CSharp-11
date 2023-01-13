@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = WiredBrainCoffee.UI
+build_property.RootNamespace = WiredBrainCoffee.UI
+build_property.ProjectDir = C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.UI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Admin/AdminDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cQWRtaW5EYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Admin/AdminNav.razor]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cQWRtaW5OYXYucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Admin/OrderHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cT3JkZXJIaXN0b3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Components/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGF0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Components/CoffeeExtrasModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2ZmZWVFeHRyYXNNb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Components/ContactInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250YWN0SW5mby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Components/CustomerContact.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXN0b21lckNvbnRhY3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Components/DetailsModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZXRhaWxzTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Components/MenuListItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNZW51TGlzdEl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Components/OrderListItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPcmRlckxpc3RJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Pages/ContactConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdENvbmZpcm1hdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Pages/ContactForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdEZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Pages/Order.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Pages/OrderConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJDb25maXJtYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Components/MailingList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWlsaW5nTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-539xsotx86
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-nluadidm6p
+
+[C:/Users/zeynels/Desktop/Git Project/DotNet7/Blazor-WiredBrainCoffe/WiredBrainCoffee.UI/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rhks0l3cfq

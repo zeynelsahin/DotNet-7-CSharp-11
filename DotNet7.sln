@@ -8,6 +8,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7BlazorWebAssembly", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalWeb", "MinimalWeb\MinimalWeb.csproj", "{637F1E2F-E3C5-45F0-92F2-EBAC455BE626}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blazor-WiredBrainCoffe", "Blazor-WiredBrainCoffe", "{704DD982-5E97-4CD0-87FE-3599380EBAFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.UI", "Blazor-WiredBrainCoffe\WiredBrainCoffee.UI\WiredBrainCoffee.UI.csproj", "{952DF4DE-A32F-4465-BBD5-589F1AF77816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.Models", "Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\WiredBrainCoffee.Models.csproj", "{9D5718FE-D658-45C9-B3EC-A62EFB67D029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.MinApi", "Blazor-WiredBrainCoffe\WiredBrainCoffee.MinApi\WiredBrainCoffee.MinApi.csproj", "{7493E782-9872-4076-BB8F-F632A4B3EDFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +38,22 @@ Global
 		{637F1E2F-E3C5-45F0-92F2-EBAC455BE626}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637F1E2F-E3C5-45F0-92F2-EBAC455BE626}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637F1E2F-E3C5-45F0-92F2-EBAC455BE626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952DF4DE-A32F-4465-BBD5-589F1AF77816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952DF4DE-A32F-4465-BBD5-589F1AF77816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952DF4DE-A32F-4465-BBD5-589F1AF77816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952DF4DE-A32F-4465-BBD5-589F1AF77816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5718FE-D658-45C9-B3EC-A62EFB67D029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5718FE-D658-45C9-B3EC-A62EFB67D029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5718FE-D658-45C9-B3EC-A62EFB67D029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5718FE-D658-45C9-B3EC-A62EFB67D029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7493E782-9872-4076-BB8F-F632A4B3EDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7493E782-9872-4076-BB8F-F632A4B3EDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7493E782-9872-4076-BB8F-F632A4B3EDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7493E782-9872-4076-BB8F-F632A4B3EDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{952DF4DE-A32F-4465-BBD5-589F1AF77816} = {704DD982-5E97-4CD0-87FE-3599380EBAFF}
+		{9D5718FE-D658-45C9-B3EC-A62EFB67D029} = {704DD982-5E97-4CD0-87FE-3599380EBAFF}
+		{7493E782-9872-4076-BB8F-F632A4B3EDFE} = {704DD982-5E97-4CD0-87FE-3599380EBAFF}
 	EndGlobalSection
 EndGlobal
