@@ -10,11 +10,17 @@ namespace WiredBrainCoffee.UI.Admin
         [Inject]
         public IOrderService OrderService { get; set; }
 
-        List<Order> items = new List<Order>();
+        IQueryable<Order> items = new List<Order>().AsQueryable();
+
+        PaginationState pagination = new PaginationState() { ItemsPerPage = 4 };
+
+        private string nameFilter = string.Empty;
+
+        private IQueryable<Order> FilteredItems => items.Where(p => p.LastName.Contains(nameFilter, StringComparison.CurrentCultureIgnoreCase));
 
         protected override async Task OnInitializedAsync()
         {
-            items = await OrderService.GetOrders();
+            items = (await OrderService.GetOrders()).AsQueryable();
         }
     }
 }
