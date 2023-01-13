@@ -101,9 +101,15 @@ namespace WiredBrainCoffee.UI.Pages
             NavManager.NavigateTo("order-confirmation");
         }
 
-        protected async override Task OnInitializedAsync()
+        protected override async Task OnInitializedAsync()
         {
             MenuItems = await MenuService.GetMenuItems();
+            PromoCode = NavManager.HistoryEntryState;
+
+            if (PromoCode=="Discount")
+            {
+                Discount = 0.1m;
+            }
         }
     }
 }

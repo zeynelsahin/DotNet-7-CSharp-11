@@ -1,0 +1,401 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\obj\\Debug\\net7.0\\build-gz\\iqn37HeC.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WiredBrainCoffee.UI.styles.css",
+      "PackagePath": "staticwebassets\\WiredBrainCoffee.UI.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\wiredbrain.css",
+      "PackagePath": "staticwebassets\\css\\wiredbrain.css"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\css\\wiredbrain.min.css",
+      "PackagePath": "staticwebassets\\css\\wiredbrain.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\debug.log",
+      "PackagePath": "staticwebassets\\debug.log"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\banner\\banner-bag.png",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-bag.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\banner\\banner-ground.png",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-ground.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\banner\\banner-whip.png",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-whip.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\banner\\cups.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\cups.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\banner\\redvelvet.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\redvelvet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\banner\\waffles.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\waffles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\app.png",
+      "PackagePath": "staticwebassets\\images\\marketing\\app.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\bag.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\bag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\carbs.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\carbs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\coffe-napkins.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\coffe-napkins.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\coffe-plant.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\coffe-plant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\community.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\community.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\cups.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\cups.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\design.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\download-small.png",
+      "PackagePath": "staticwebassets\\images\\marketing\\download-small.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\outdoor-table.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\outdoor-table.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\placeholder.png",
+      "PackagePath": "staticwebassets\\images\\marketing\\placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\sign.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\sign.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\marketing\\table.jpg",
+      "PackagePath": "staticwebassets\\images\\marketing\\table.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\PumpkinBread.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\PumpkinBread.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\PumpkinBread.png",
+      "PackagePath": "staticwebassets\\images\\menu\\PumpkinBread.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\applefritter.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\applefritter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\bagel.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\bagel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\bagel.png",
+      "PackagePath": "staticwebassets\\images\\menu\\bagel.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\beans.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\beans.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\berry-drizzle.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\berry-drizzle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cake-brown.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\cake-brown.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cake.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\cake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cappucino.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\cappucino.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cappucino.png",
+      "PackagePath": "staticwebassets\\images\\menu\\cappucino.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\charcuterie.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\charcuterie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\chocolate.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\chocolate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\chocolate.png",
+      "PackagePath": "staticwebassets\\images\\menu\\chocolate.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cookies.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\cookies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cookies.png",
+      "PackagePath": "staticwebassets\\images\\menu\\cookies.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cup.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\cup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cup.png",
+      "PackagePath": "staticwebassets\\images\\menu\\cup.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cupcake.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\cupcake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cupcake.png",
+      "PackagePath": "staticwebassets\\images\\menu\\cupcake.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cupcakes.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\cupcakes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\cupcakes.png",
+      "PackagePath": "staticwebassets\\images\\menu\\cupcakes.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\design.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\design.png",
+      "PackagePath": "staticwebassets\\images\\menu\\design.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\granola.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\granola.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\granola.png",
+      "PackagePath": "staticwebassets\\images\\menu\\granola.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\ground.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\ground.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\ground.png",
+      "PackagePath": "staticwebassets\\images\\menu\\ground.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\iced-mocha.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\iced-mocha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\latte.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\latte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\marshmallow.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\marshmallow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\matcha.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\matcha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\muffin.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\muffin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\muffin.png",
+      "PackagePath": "staticwebassets\\images\\menu\\muffin.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\noodles.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\noodles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\noodles.png",
+      "PackagePath": "staticwebassets\\images\\menu\\noodles.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\raspberry-tea.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\raspberry-tea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\salad-house.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\salad-house.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\salad-special.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\salad-special.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\salad1.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\salad1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\salad2.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\salad2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\sandwich.png",
+      "PackagePath": "staticwebassets\\images\\menu\\sandwich.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\strawberries.png",
+      "PackagePath": "staticwebassets\\images\\menu\\strawberries.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\waffles.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\waffles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\whipcream.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\whipcream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\images\\menu\\whipcream.png",
+      "PackagePath": "staticwebassets\\images\\menu\\whipcream.png"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\jquery.min.map",
+      "PackagePath": "staticwebassets\\js\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\js\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\js\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.UI\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WiredBrainCoffee.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WiredBrainCoffee.UI.props",
+      "PackagePath": "build\\WiredBrainCoffee.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WiredBrainCoffee.UI.props",
+      "PackagePath": "buildMultiTargeting\\WiredBrainCoffee.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WiredBrainCoffee.UI.props",
+      "PackagePath": "buildTransitive\\WiredBrainCoffee.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

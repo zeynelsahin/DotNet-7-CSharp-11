@@ -1,0 +1,12 @@
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\bin\Debug\net7.0\WiredBrainCoffee.Models.deps.json
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\bin\Debug\net7.0\WiredBrainCoffee.Models.dll
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\bin\Debug\net7.0\WiredBrainCoffee.Models.pdb
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\WiredBrainCoffee.Models.csproj.AssemblyReference.cache
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\WiredBrainCoffee.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\WiredBrainCoffee.Models.AssemblyInfoInputs.cache
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\WiredBrainCoffee.Models.AssemblyInfo.cs
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\WiredBrainCoffee.Models.csproj.CoreCompileInputs.cache
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\WiredBrainCoffee.Models.dll
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\refint\WiredBrainCoffee.Models.dll
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\WiredBrainCoffee.Models.pdb
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.Models\obj\Debug\net7.0\ref\WiredBrainCoffee.Models.dll
