@@ -1,4 +1,4 @@
-﻿
+﻿ 
 @inject NavigationManager NavManager
 @inject IContactService ContactService
 @inject IJSRuntime JSRun
@@ -32,6 +32,11 @@
     </div>
     <button type="submit" class="btn btn-info float-end">Submit</button>
 </EditForm>
+<div>
+    <a href="http://localhost">Local Host</a>
+</div>
+<NavigationLock OnBeforeInternalNavigation="
+    ConfirmNav" ConfirmExternalNavigation></NavigationLock>
 
 @code {
     public Contact Contact = new Contact();
@@ -40,5 +45,20 @@
     {
         await ContactService.PostContact(Contact);
         NavManager.NavigateTo("contact-confirmation");
+    }
+
+    async Task ConfirmNav(LocationChangingContext context)
+    {
+        bool isEditing = Contact.GetType().GetProperties().Any(p => !string.IsNullOrEmpty(p.GetValue(
+            Contact).ToString()));
+
+        if (isEditing)
+        {
+            var confirm = await JSRun.InvokeAsync<bool>("window.confirm", "Are you sure you want to leave?");
+            if (!confirm)
+            {
+                context.PreventNavigation();
+            }
+        }
     }
 }

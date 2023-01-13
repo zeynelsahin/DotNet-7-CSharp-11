@@ -268,14 +268,14 @@
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
       "WiredBrainCoffee.Models.dll": "sha256-ZJNlDcqDFwqTrzCAvwstVdH0KumKtxyLoClQ0\/D0EA0=",
-      "WiredBrainCoffee.UI.dll": "sha256-pcDmZKuCKehwBu1rsnzRu0nYwyPqZNx75U6rFOh3HyI="
+      "WiredBrainCoffee.UI.dll": "sha256-sD6yfogzCtyGupdAyYF9LqU7d+w8PdD9cdoCejlMyic="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "WiredBrainCoffee.Models.pdb": "sha256-mctTkNfPu3qFl44qQo4J4jJnzlZJF6Zr+L6dcSbH31s=",
-      "WiredBrainCoffee.UI.pdb": "sha256-u5sZ42zBu2KBmf79zVKpfmTY54+RzIhuyI\/OkQqs4as="
+      "WiredBrainCoffee.UI.pdb": "sha256-xLauf1La1r5yPSaXOUXn1jLEGNX3hQDHGC4vKS9nGhI="
     },
     "runtime": {
       "dotnet.7.0.0.b4ej7rdkt5.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",
