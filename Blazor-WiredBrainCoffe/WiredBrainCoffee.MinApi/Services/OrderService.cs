@@ -3,7 +3,7 @@ using WiredBrainCoffee.Models;
 
 namespace WiredBrainCoffee.MinApi.Services
 {
-    public class OrderService : IOrderService
+    public class  OrderService : IOrderService
     {
         public List<Order> Orders { get; set; } = new List<Order>();
 
