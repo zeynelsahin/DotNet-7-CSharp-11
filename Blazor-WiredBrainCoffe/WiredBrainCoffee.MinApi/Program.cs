@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Threading.RateLimiting;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.Extensions.Primitives;
 using Microsoft.OpenApi.Models;
@@ -26,7 +27,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
-app.UseRateLimiter(new RateLimiterOptions() { RejectionStatusCode = 429 }.AddConcurrencyLimiter("Concurrency", options => { options.PermitLimit = 1 }));
+app.UseRateLimiter(new RateLimiterOptions() { RejectionStatusCode = 429 }.AddConcurrencyLimiter("Concurrency", options => { options.PermitLimit = 1; }).AddFixedWindowLimiter("FixedWindow", options =>
+{
+    options.Window = TimeSpan.FromSeconds(5);
+    options.PermitLimit = 10; //Her beş saniyede 10 tane istek cevaplanır.2saniye içinde 10 istek gelirse 3 saniye daha istekler 429 HTTP kodu ile reddedilir.
+    options.QueueLimit = 3; //PermitLimiti aşan 3 istek bekletilir.
+    options.QueueProcessingOrder =QueueProcessingOrder.OldestFirst;//Bekletile requestlerin çalışması en eski olandan başlar
+
+}));
 app.MapGet("/unlimited", () => "Unlimited.");
 app.MapGet("/unlimited", () => "Rate Limited.").RequireRateLimiting("Concurrency");
 var mobileApiGroup = app.MapGroup("/api").AddEndpointFilter(async (context, next) =>
