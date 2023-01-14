@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using Microsoft.Extensions.Primitives;
 using WiredBrainCoffee.MinApi.Services;
 using WiredBrainCoffee.MinApi.Services.Interfaces;
 using WiredBrainCoffee.Models;
@@ -43,4 +45,20 @@ app.MapGet("/menu", (IMenuService menuService) =>
     return menuService.GetMenuItems();
 }); ;
 
+app.MapGet("/rewards", () =>
+{
+    return "Headers x-device-type : mobile";
+}).AddEndpointFilter(async (context, next) =>
+{
+    StringValues deviceType;
+    context.HttpContext.Request.Headers.TryGetValue("x-device-type", out deviceType);
+    if (deviceType!="mobile")
+    {
+        return Results.BadRequest();
+    }
+
+    var result = await next(context);
+    Debug.WriteLine("after");
+    return result;
+});
 app.Run();
