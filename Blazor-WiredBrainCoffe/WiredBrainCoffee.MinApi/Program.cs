@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.Extensions.Primitives;
+using Microsoft.OpenApi.Models;
 using WiredBrainCoffee.MinApi.Services;
 using WiredBrainCoffee.MinApi.Services.Interfaces;
 using WiredBrainCoffee.Models;
@@ -42,6 +43,19 @@ var mobileApiGroup = app.MapGroup("/api").AddEndpointFilter(async (context, next
 app.MapGet("/orders", (IOrderService orderService) =>
 {
     return Results.Ok(orderService.GetOrders());
+}).WithOpenApi(operation =>
+{
+    operation.OperationId = "GetOrders";
+    operation.Description = "Gets all of the orders. Use with cation due to performance.";
+    operation.Summary = "Gets all the orders.";
+    operation.Tags = new List<OpenApiTag>()
+    {
+        new OpenApiTag()
+        {
+            Name = "Orders"
+        }
+    };
+    return operation;
 });
 
 app.MapGet("/ordersByIds", (IOrderService orderService,int[] orderIds) =>

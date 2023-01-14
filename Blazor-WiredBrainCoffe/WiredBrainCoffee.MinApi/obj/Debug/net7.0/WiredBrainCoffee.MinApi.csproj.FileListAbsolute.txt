@@ -63,3 +63,4 @@ C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCo
 C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.MinApi\obj\Debug\net7.0\WiredBrainCoffee.MinApi.pdb
 C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.MinApi\obj\Debug\net7.0\WiredBrainCoffee.MinApi.genruntimeconfig.cache
 C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.MinApi\obj\Debug\net7.0\ref\WiredBrainCoffee.MinApi.dll
+C:\Users\zeynels\Desktop\Git Project\DotNet7\Blazor-WiredBrainCoffe\WiredBrainCoffee.MinApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll

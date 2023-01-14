@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6nZp5Y6l55e3I+jHxh0AT4eYnX8AD7IDCcpIfPzG5OzzmzNvkLd6SHLx6YLWc8ltaAhM8ykFNRs/juOkN+SguA==",
+  "dgSpecHash": "EL1QuQYOSSHN7/hq8+mtU35CNIpD+jm/2gGuF9dc1wBdMIpkkLDkLb52iJtAzgPBpJu4rT5nz6TWupPk904QRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.MinApi\\WiredBrainCoffee.MinApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.2\\microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0-rc.1.22426.7\\microsoft.data.sqlite.core.7.0.0-rc.1.22426.7.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0-rc.1.22426.7\\microsoft.entityframeworkcore.7.0.0-rc.1.22426.7.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0-rc.1.22426.7\\microsoft.entityframeworkcore.abstractions.7.0.0-rc.1.22426.7.nupkg.sha512",
@@ -23,7 +24,7 @@
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.1.22426.10\\microsoft.extensions.logging.abstractions.7.0.0-rc.1.22426.10.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.1.22426.10\\microsoft.extensions.options.7.0.0-rc.1.22426.10.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.1.22426.10\\microsoft.extensions.primitives.7.0.0-rc.1.22426.10.nupkg.sha512",
-    "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.0\\sqlitepclraw.bundle_e_sqlite3.2.1.0.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\sqlitepclraw.core\\2.1.0\\sqlitepclraw.core.2.1.0.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.0\\sqlitepclraw.lib.e_sqlite3.2.1.0.nupkg.sha512",
