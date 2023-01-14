@@ -85,10 +85,4 @@ logGroup.MapPost("/todos5", (ToDoItem toDoItem, ToDoItemRepository repository) =
     return Results.NoContent();
 });
 
-app.MapPost("/file", async (IFormFile file) =>
-{
-    using var stream = File.OpenWrite("upload.jpg");
-    await file.CopyToAsync(stream);
-});
-
 app.Run();
