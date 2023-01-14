@@ -1,5 +1,6 @@
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices.JavaScript;
+using Microsoft.AspNetCore.Mvc;
 using MinimalWeb;
 using MinimalWeb.Models;
 
@@ -84,5 +85,10 @@ logGroup.MapPost("/todos5", (ToDoItem toDoItem, ToDoItemRepository repository) =
     return Results.NoContent();
 });
 
+app.MapPost("/file", async (IFormFile file) =>
+{
+    using var stream = File.OpenWrite("upload.jpg");
+    await file.CopyToAsync(stream);
+});
 
 app.Run();
