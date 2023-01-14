@@ -9,10 +9,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.RateLimiting" Version="7.0.0-rc.2.22476.2" />
+    <PackageReference Include="Microsoft.NET.Build.Containers" Version="0.2.7" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0-rc.1.22426.7" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\WiredBrainCoffee.Models\WiredBrainCoffee.Models.csproj" />
   </ItemGroup>

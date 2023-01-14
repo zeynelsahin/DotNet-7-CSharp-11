@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oopWjRNrxlz8ypXyJcBZlUotvKyNkR3473XfX1U8opaEpcnk3+xbkgBvITtA43NS/1I7sP6Ihe3YgUjf0Vr2rg==",
+  "dgSpecHash": "2muniA4M+S9fmh8sloe8hAMiL9O7RPFzYRPWkbesRnbrT7NIfaT/dLjWWsMILWjlxioum+MwVtmaFmhLKAnHDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.MinApi\\WiredBrainCoffee.MinApi.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.net.build.containers\\0.2.7\\microsoft.net.build.containers.0.2.7.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.0\\sqlitepclraw.bundle_e_sqlite3.2.1.0.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\sqlitepclraw.core\\2.1.0\\sqlitepclraw.core.2.1.0.nupkg.sha512",

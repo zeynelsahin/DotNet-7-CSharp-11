@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9F4kZZE9pG30qyl7LyrIro3gbkMdo7+VH5y0iOW+dKE2Ugvcfxx06gWckGXr8pTQM9OaZc/JVOtEBaGX0DxNvw==",
+  "dgSpecHash": "g1HlewokSeLJI9ExmcQqVFHxNU4l7MeO1L3xkZNpB9Qp9eJY7NMh5flu7rGTcds/mXDj+hfI5eled0T4pIbisg==",
   "success": true,
   "projectFilePath": "C:\\Users\\zeynels\\Desktop\\Git Project\\DotNet7\\Blazor-WiredBrainCoffe\\WiredBrainCoffee.Tests\\WiredBrainCoffee.Tests.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.net.build.containers\\0.2.7\\microsoft.net.build.containers.0.2.7.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\zeynels\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

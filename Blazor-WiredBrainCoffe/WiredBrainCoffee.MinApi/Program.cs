@@ -15,7 +15,7 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IMenuService, MenuService>();
 
 builder.Services.AddCors();
-
+builder.Services.AddOutputCache();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,6 +25,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseOutputCache();
 app.UseHttpsRedirection();
 app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 app.UseRateLimiter(new RateLimiterOptions() { RejectionStatusCode = 429 }.AddConcurrencyLimiter("Concurrency", options => { options.PermitLimit = 1; }).AddFixedWindowLimiter("FixedWindow", options =>
@@ -32,8 +33,7 @@ app.UseRateLimiter(new RateLimiterOptions() { RejectionStatusCode = 429 }.AddCon
     options.Window = TimeSpan.FromSeconds(5);
     options.PermitLimit = 10; //Her beş saniyede 10 tane istek cevaplanır.2saniye içinde 10 istek gelirse 3 saniye daha istekler 429 HTTP kodu ile reddedilir.
     options.QueueLimit = 3; //PermitLimiti aşan 3 istek bekletilir.
-    options.QueueProcessingOrder =QueueProcessingOrder.OldestFirst;//Bekletile requestlerin çalışması en eski olandan başlar
-
+    options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst; //Bekletile requestlerin çalışması en eski olandan başlar
 }));
 app.MapGet("/unlimited", () => "Unlimited.");
 app.MapGet("/unlimited", () => "Rate Limited.").RequireRateLimiting("Concurrency");
@@ -76,8 +76,11 @@ app.MapPost("/contact", (Contact contact) =>
     // save contact to database
 });
 
-app.MapGet("/menu", (IMenuService menuService) => { return menuService.GetMenuItems(); });
-;
+app.MapGet("/menu", (IMenuService menuService) => { return menuService.GetMenuItems(); }).CacheOutput(p=>
+{
+    p.Expire(TimeSpan.FromSeconds(20));
+});  
+
 
 mobileApiGroup.MapGet("/rewards", () => { return "Headers x-device-type : mobile"; });
 

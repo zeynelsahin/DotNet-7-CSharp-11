@@ -369,6 +369,13 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.NET.Build.Containers/0.2.7": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.Build.Containers.props": {},
+          "build/Microsoft.NET.Build.Containers.targets": {}
+        }
+      },
       "Microsoft.OpenApi/1.4.3": {
         "type": "package",
         "compile": {
@@ -1381,6 +1388,30 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.NET.Build.Containers/0.2.7": {
+      "sha512": "Ie5I/rofXd4DVtrEOMjPUtutGCepKLKanRLo0yWyS8fuXQu0lKM3hto8HBKdDdePCcOVEKzwvMW2BBTsJNRnVw==",
+      "type": "package",
+      "path": "microsoft.net.build.containers/0.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.NET.Build.Containers.props",
+        "build/Microsoft.NET.Build.Containers.targets",
+        "containerize/Microsoft.NET.Build.Containers.dll",
+        "containerize/System.CommandLine.dll",
+        "containerize/Valleysoft.DockerCredsProvider.dll",
+        "containerize/containerize.dll",
+        "containerize/containerize.runtimeconfig.json",
+        "microsoft.net.build.containers.0.2.7.nupkg.sha512",
+        "microsoft.net.build.containers.nuspec",
+        "tasks/net472/Microsoft.NET.Build.Containers.deps.json",
+        "tasks/net472/Microsoft.NET.Build.Containers.dll",
+        "tasks/net7.0/Microsoft.NET.Build.Containers.deps.json",
+        "tasks/net7.0/Microsoft.NET.Build.Containers.dll",
+        "tasks/net7.0/Valleysoft.DockerCredsProvider.dll"
+      ]
+    },
     "Microsoft.OpenApi/1.4.3": {
       "sha512": "rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
       "type": "package",
@@ -1736,6 +1767,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
       "Microsoft.AspNetCore.RateLimiting >= 7.0.0-rc.2.22476.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.0-rc.1.22426.7",
+      "Microsoft.NET.Build.Containers >= 0.2.7",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "WiredBrainCoffee.Models >= 1.0.0"
     ]
@@ -1795,6 +1827,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[7.0.0-rc.1.22426.7, )"
+          },
+          "Microsoft.NET.Build.Containers": {
+            "target": "Package",
+            "version": "[0.2.7, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
